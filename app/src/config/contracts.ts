@@ -1,5 +1,5 @@
 // EncryptedCanvas contract metadata copied from deployments/sepolia/EncryptedCanvas.json
-export const CONTRACT_ADDRESS = '0x0000000000000000000000000000000000000000';
+export const CONTRACT_ADDRESS = '0xB31a69e80C1840B81B2Af0fD52041463d75201f8';
 
 export const CONTRACT_ABI = [
   {
