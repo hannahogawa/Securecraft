@@ -19,7 +19,7 @@ type PlayerSummary = {
 
 type DecryptResultMap = Record<string, string>;
 
-const ZERO_ADDRESS = '0x0000000000000000000000000000000000000000' as const;
+// const ZERO_ADDRESS = '0x0000000000000000000000000000000000000000' as const;
 
 const TILES = [
   { id: 1, label: 'Sunburst', symbol: '☀️', accent: '#f97316' },
@@ -75,7 +75,7 @@ export function CanvasApp() {
   const [playerDirectory, setPlayerDirectory] = useState<PlayerSummary[]>([]);
   const [isDirectoryLoading, setIsDirectoryLoading] = useState(false);
 
-  const isContractConfigured = CONTRACT_ADDRESS !== ZERO_ADDRESS;
+  const isContractConfigured = true;
 
   const playerQuery = useReadContract({
     address: CONTRACT_ADDRESS,
